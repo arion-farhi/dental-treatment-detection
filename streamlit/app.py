@@ -34,7 +34,7 @@ with tab1:
     st.markdown("Model detections on dental X-ray images showing identified treatments:")
     
     img = Image.open('images/sample_detections.png')
-    st.image(img, use_column_width=True)
+    st.image(img)
     
     st.markdown("### Detected Classes")
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -55,14 +55,14 @@ with tab2:
     # Per-class performance chart
     st.subheader("Per-Class Performance")
     img_perf = Image.open('images/per_class_performance.png')
-    st.image(img_perf, use_column_width=True)
+    st.image(img_perf)
     
     st.markdown("---")
     
     # Class size vs performance
     st.subheader("Impact of Training Data Size")
     img_size = Image.open('images/class_size_vs_performance.png')
-    st.image(img_size, use_column_width=True)
+    st.image(img_size)
     
     # Performance table
     st.markdown("---")
