@@ -1,6 +1,6 @@
 # Dental Treatment Detection - AutoML Vision
 
-**[Live Demo](https://dental-detection.streamlit.app)** | Automated identification of dental treatments from panoramic X-rays using Google Cloud Vertex AI
+**[Live Demo]([https://dental-detection.streamlit.app](https://dental-detection-app-533112800844.us-central1.run.app/))** | Automated identification of dental treatments from panoramic X-rays using Google Cloud Vertex AI
 
 ---
 
@@ -169,7 +169,7 @@ Clear positive correlation between training samples and AP, with one notable out
 | **Storage** | Google Cloud Storage |
 | **Model Training** | AutoML Vision CLOUD_HIGH_ACCURACY_1 |
 | **Evaluation** | Matplotlib, Pillow, JSON |
-| **Deployment** | Streamlit Community Cloud |
+| **Deployment** | Cloud Run (Containerized) |
 | **Version Control** | Git, GitHub |
 
 ---
