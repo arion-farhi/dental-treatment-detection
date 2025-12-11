@@ -1,6 +1,6 @@
 # Dental Treatment Detection - AutoML Vision
 
-**[Live Demo]([(https://dental-detection-app-533112800844.us-central1.run.app/))** | Automated identification of dental treatments from panoramic X-rays using Google Cloud Vertex AI
+**[Live Demo]([(https://dental-detection-app-533112800844.us-central1.run.app/)])** | Automated identification of dental treatments from panoramic X-rays using Google Cloud Vertex AI
 
 ---
 
