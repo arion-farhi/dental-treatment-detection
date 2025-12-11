@@ -71,7 +71,7 @@ with tab2:
     df.columns = ['Class', 'Average Precision', 'Training Samples']
     df['AP %'] = (df['Average Precision'] * 100).round(1)
     df = df[['Class', 'AP %', 'Training Samples']]
-    st.dataframe(df, hide_index=True, use_column_width=True)
+    st.dataframe(df, hide_index=True)
 
 with tab3:
     st.header("Training Details")
