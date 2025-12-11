@@ -1,0 +1,44 @@
+# Data files (too large)
+*.jpg
+*.jpeg
+*.png
+!screenshots/*.png
+!streamlit/images/*.png
+*.jsonl
+DentAi-2/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets
+*.json
+!streamlit/model_metrics.json
+*.pem
+*.key
+service-account*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Temporary files
+*.log
+*.tmp
+tmp/

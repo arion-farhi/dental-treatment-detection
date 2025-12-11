@@ -1,0 +1,39 @@
+{
+  "overall": {
+    "mAP": 0.709,
+    "precision": 0.92,
+    "recall": 0.842,
+    "total_images": 9452,
+    "training_images": 8839,
+    "validation_images": 370,
+    "test_images": 243
+  },
+  "per_class": [
+    {
+      "class": "Implant",
+      "ap": 0.751,
+      "sample_count": 10704
+    },
+    {
+      "class": "Infected-teeth",
+      "ap": 0.746,
+      "sample_count": 10116
+    },
+    {
+      "class": "Fillings",
+      "ap": 0.695,
+      "sample_count": 31434
+    },
+    {
+      "class": "Impacted Tooth",
+      "ap": 0.641,
+      "sample_count": 2568
+    },
+    {
+      "class": "Cavity",
+      "ap": 0.429,
+      "sample_count": 3456
+    }
+  ],
+  "model_id": "6924749520500686848"
+}
