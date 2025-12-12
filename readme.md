@@ -231,7 +231,7 @@ Key challenges and learnings:
 
 **Fillings Taught Me About Problem Formulation:** Despite having the most data, Fillings underperformed. Turns out new fillings and old fillings look completely different—this is a class definition problem, not a model problem. **Good ML starts with good problem framing**.
 
-The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. **At Avalon Dental, we use a live endpoint in a separate web app.**
+The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. **At Avalon Dental, we used a live endpoint in a separate web app.**
 
 ---
 
