@@ -231,7 +231,7 @@ Key challenges and learnings:
 
 **Fillings Taught Me About Problem Formulation:** Despite having the most data, Fillings underperformed. Turns out new fillings and old fillings look completely different—this is a class definition problem, not a model problem. **Good ML starts with good problem framing**.
 
-The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. A live endpoint would cost $60/month—not worth it when static predictions demonstrate the same ML skills.
+The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. At Avalon Dental, we use a live endpoint. ***At Avalon Dental, we use a live endpoint in a separate web app.**
 
 ---
 
@@ -291,8 +291,4 @@ streamlit run app.py
 
 ## Author
 
-**Arion Farhi** - ML Engineer | Google Cloud Certified
-
-[GitHub](https://github.com/arion-farhi) | [LinkedIn](https://linkedin.com/in/arion-farhi)
-
-*Built as a portfolio project demonstrating end-to-end ML engineering on Google Cloud Platform*
+**Arion Farhi** - [GitHub](https://github.com/arion-farhi) | [LinkedIn](https://linkedin.com/in/arionfarhi)
