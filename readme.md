@@ -212,14 +212,14 @@ dental-treatment-detection/
 - **Split:** 94% train (8,839), 4% validation (370), 2% test (243)
 - **Source:** [Roboflow Universe](https://universe.roboflow.com/)
 
-**Note:** Originally planned to use proprietary data from Avalon Dental (my family's dental practice), but pivoted to public data to avoid HIPAA compliance complexity while still demonstrating production ML engineering skills.
+**Note:** I trained on a public dataset instead of proprietary data from Avalon Dental to avoid HIPPA compliance complexity.
 
 ---
 
 
 ## The Journey
 
-This project started as a way to apply ML to a real business problem—my family runs Avalon Dental, and I saw firsthand how much time dentists spend on X-ray analysis. While I couldn't use their actual patient data (HIPAA constraints), I wanted to build something that demonstrated production-ready ML engineering.
+This project started as a way to apply ML to a real business problem—I managed Avalon Dental, and I saw firsthand how much time dentists spend on X-ray analysis. While I couldn't use our actual patient data (HIPAA constraints), I wanted to build something that demonstrated production-ready ML engineering.
 
 Key challenges and learnings:
 
@@ -231,7 +231,7 @@ Key challenges and learnings:
 
 **Fillings Taught Me About Problem Formulation:** Despite having the most data, Fillings underperformed. Turns out new fillings and old fillings look completely different—this is a class definition problem, not a model problem. **Good ML starts with good problem framing**.
 
-The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. At Avalon Dental, we use a live endpoint. ***At Avalon Dental, we use a live endpoint in a separate web app.**
+The Streamlit demo is intentionally simple (static predictions, not live inference) because **portfolio projects should show end-to-end thinking without unnecessary complexity**. **At Avalon Dental, we use a live endpoint in a separate web app.**
 
 ---
 
